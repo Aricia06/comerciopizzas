@@ -1,0 +1,69 @@
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+
+    escreval("pizza de peperoni->50,00 R$")
+    escreval("ingredientes:mussarela e salame peperoni")
+    escreval("")
+    escreval("bebidas")
+    escreval("coca-cola lata->4,50 R$")
+    escreval("refrigerante coca-cola 350ml)
+    escreval("")
+    escreval("dolly guarana garrafa-.8,90 R$)
+    escreval("refrigerante dolly sabor guarana,garrafa 2 litros")
+    escreval("")
+    escreval("suco de laranja-.6,00 R$")
+    escreval("suco natutral sabor laranja,400ml")
+    escreval("")
+escreval("")
+escreval("pressione ENTER para retornar ao MENU")
+leia (retmenu)
+limpatela
+menu()
+fimprocedimento
+
+procedimento buscar_usuario()
+inicio
+sttaus<-0
+i<-0
+limpatela
+escreva("digite o numero de telefone:")
+leia(fones)
+para i de 0 ate 1 faca
+     se fones=cadstro[i].fone entao
+     escreval("")
+     escreval("")
+     escreval("escolha uma opçao a seguir?")
+     escreval("(1) ->buscar outro cliente
+     escreval("(2) ->cadsstrar novo cliente")
+     escreval("(3) ->seguir para pedido")
+leia(resp)
+  escolha resp
+    caso 1
+      buscar_usuario()
+  limpatela
+  cadstro()
+ caso  3
+    pedio ()
+ fimescolha
+ fimprocedimento
+
+ procedimento pedido ()
+ inicio
+ limpatela
+
+ repita
+ limpatela
+     escreval
+     escreval
+     escreval
+     escreval
+     escreval
+
+
+
+
+
+
+
+Fimalgoritmo
