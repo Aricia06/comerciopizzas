@@ -1,8 +1,4 @@
-Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-
-
-    escreval("pizza de peperoni->50,00 R$")
+escreval("pizza de peperoni->50,00 R$")
     escreval("ingredientes:mussarela e salame peperoni")
     escreval("")
     escreval("bebidas")
@@ -30,13 +26,13 @@ limpatela
 escreva("digite o numero de telefone:")
 leia(fones)
 para i de 0 ate 1 faca
-     se fones=cadstro[i].fone entao
-     escreval("")
-     escreval("")
-     escreval("escolha uma opçao a seguir?")
-     escreval("(1) ->buscar outro cliente
-     escreval("(2) ->cadsstrar novo cliente")
-     escreval("(3) ->seguir para pedido")
+   se fones=cadastro[1].fone entao
+   escreval("")
+   escreval("")
+   escreval("dados do cliente")
+   escreval("nome:",cadastro[i].nome," fone;",cadastro[i].fone)
+   escreval("endereço:",cadastro [i].rua,"N",cadsstro [1].num)
+
 leia(resp)
   escolha resp
     caso 1
@@ -44,7 +40,7 @@ leia(resp)
   limpatela
   cadstro()
  caso  3
-    pedio ()
+    pedido ()
  fimescolha
  fimprocedimento
 
@@ -54,11 +50,29 @@ leia(resp)
 
  repita
  limpatela
-     escreval
-     escreval
-     escreval
-     escreval
-     escreval
+     escreval("tipos de pizza")
+     escreval("(1)-> incluir no pedido pizza meio a meio")
+     escreval("(2)-> incluir no pedido uma pizza inteira")
+     escreval("(3)-> incluir no pedido uma bebida")
+     escreval("")
+     leia (m_a_m)
+        se(m_a_m="1") entao
+          limpatela
+          escreval("escolha 2 sabores para a pizza meio a meio")
+          escreval("")
+          escreval("(1)-pizza de mussarela->20,00 R$
+          escreval("ingredientes:mussarela e oregano")
+          escreval("")
+          escreval("(2) -pizza de calabresa-> 21,00 R$)
+          escreval("ingredientes:mussarela e calabresa fatiada")
+
+          
+
+
+
+
+
+
 
 
 
